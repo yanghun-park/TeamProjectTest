@@ -1,8 +1,6 @@
 import numpy as np
 import cv2
 
-circleCountMax = 100 # 공의 최대 검출 개수
-
 # 허프 원 검출을 사용하여 공을 검출하는 함수
 def searchCircle(frame, img_back, hsv_l, hsv_u): # 공을 찾는 함수
     img_hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV) # HSV 영역으로 변환
