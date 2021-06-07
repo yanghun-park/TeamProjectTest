@@ -1,5 +1,5 @@
 import numpy as np
-import cv2
+import cv
 
 # 허프 원 검출을 사용하여 공을 검출하는 함수
 def searchCircle(frame, img_back, hsv_l, hsv_u): # 공을 찾는 함수
